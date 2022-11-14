@@ -139,23 +139,23 @@ class _CalculatorState extends State<Calculator> {
 
     List<Button> buttons = <Button>[
       Button('AC',
-          onPressed: clear, foregroundColor: Colors.grey, fontSize: 24),
+          onPressed: clear, foregroundColor: Colors.yellow[100], fontSize: 24),
       Button('DEL',
-          onPressed: delete, foregroundColor: Colors.grey, fontSize: 24),
-      Button('%', onPressed: appendOrReplace, foregroundColor: Colors.grey),
-      Button('/', onPressed: appendOrReplace, foregroundColor: Colors.white70),
+          onPressed: delete, foregroundColor: Colors.yellow[100], fontSize: 24),
+      Button('%', onPressed: appendOrReplace, foregroundColor: Colors.yellow[100]),
+      Button('/', onPressed: appendOrReplace, foregroundColor: Colors.yellow[100]),
       Button('7'),
       Button('8'),
       Button('9'),
-      Button('x', onPressed: appendOrReplace, foregroundColor: Colors.white70),
+      Button('x', onPressed: appendOrReplace, foregroundColor: Colors.yellow[100]),
       Button('4'),
       Button('5'),
       Button('6'),
-      Button('-', onPressed: appendOrReplace, foregroundColor: Colors.white70),
+      Button('-', onPressed: appendOrReplace, foregroundColor: Colors.yellow[100]),
       Button('1'),
       Button('2'),
       Button('3'),
-      Button('+', onPressed: appendOrReplace, foregroundColor: Colors.white70),
+      Button('+', onPressed: appendOrReplace, foregroundColor: Colors.yellow[100]),
       Button('0',
           flex: 2,
           shape:
@@ -177,13 +177,13 @@ class _CalculatorState extends State<Calculator> {
 
     return Scaffold(
         body: Container(
-            decoration:  BoxDecoration(
+            decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors:const [
-                    Color(0xFFB74093),
-                    Color(0xFF387777),
+                    Color(0xf0e626),
+                    Color(0x000000),
                   ],
                 )
             ) ,

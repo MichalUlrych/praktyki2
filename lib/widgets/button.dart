@@ -35,7 +35,7 @@ class Button extends StatelessWidget {
           },
           style: ElevatedButton.styleFrom(
             shape: shape,
-            backgroundColor: Colors.pink.shade200.withOpacity(0.5),
+            backgroundColor: Colors.yellow.withOpacity(0.5),
             minimumSize: const Size.fromHeight(84),
           ),
           child: Text(
